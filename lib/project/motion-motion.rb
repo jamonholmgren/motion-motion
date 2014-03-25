@@ -5,7 +5,12 @@ end
 
 class Motion
   class Motion
+    def self.motion
+      :motion
+    end
+
     def motion
+      :motion
     end
   end
 end

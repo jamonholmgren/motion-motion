@@ -4,8 +4,12 @@ describe "Gem MotionMotion" do
     Motion::Motion.to_s.should.include?("Motion")
   end
 
-  it "has the method 'motion' in it" do
+  it "responds to #motion" do
     Motion::Motion.new.should.respond_to?("motion")
+  end
+
+  it "responds to ::motion" do
+    Motion::Motion.should.respond_to?("motion")
   end
 
   it "prepends and appends 'Motion' to every class" do
