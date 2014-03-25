@@ -1,6 +1,6 @@
 # motion-motion
 
-TODO: Write a gem description
+Most original name ever!
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+puts Motion::Motion.to_s # "magic!"
+```
 
 ## Contributing
 
