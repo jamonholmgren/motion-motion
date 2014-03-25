@@ -6,10 +6,10 @@ Gem::Specification.new do |spec|
   spec.version       = VERSION
   spec.authors       = ["Jamon Holmgren"]
   spec.email         = ["jamon@clearsightstudio.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.description   = %q{RubyMotion in Motion. *satire*}
+  spec.summary       = %q{RubyMotion in Motion.}
+  spec.homepage      = "http://www.clearsightstudio.com"
+  spec.license       = "MIT"
 
   files = []
   files << 'README.md'

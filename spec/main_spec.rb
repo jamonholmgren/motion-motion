@@ -3,7 +3,7 @@ describe "Application 'motion-motion'" do
     @app = UIApplication.sharedApplication
   end
 
-  it "has one window" do
-    @app.windows.size.should == 1
+  it "has the name 'motion' in it" do
+    Motion::Motion.to_s.should.include?("Motion")
   end
 end
