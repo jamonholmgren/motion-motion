@@ -18,8 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
+Adds "Motion" before and after almost every class name in your app.
+
 ```ruby
-puts Motion::Motion.to_s # "magic!"
+MotionUIViewControllerMotion.alloc.initWithNibName(nil, bundle: nil)
 ```
 
 ## Contributing
